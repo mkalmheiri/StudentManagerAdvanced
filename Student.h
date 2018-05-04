@@ -1,0 +1,24 @@
+#ifndef STUDENT_H
+#define STUDENT_H
+#include<string>
+#include<vector>
+
+
+class student 
+{
+        private:
+
+                std::string firstName;
+                std::string lastName;
+                std::vector< double> grade;       
+
+        public:
+
+                void setName(std::string, std::string);
+                std::string fullName();
+                void addGrade(double);
+                double getScore();
+
+};
+
+#endif
